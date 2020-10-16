@@ -3,7 +3,7 @@
 from django.conf import settings
 from django.shortcuts import redirect
 from django.contrib import messages
-from .models import User
+from .models import agree
 from django.http import HttpResponse
 
 # 로그인 확인
